@@ -1,0 +1,24 @@
+@import "../../sass/mixin";
+@import "../../sass/reset";
+@import "../../sass/variable";
+
+.backend__dashboard {
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    .s3__url {
+        margin: 10px 0;
+        padding: 0.5em 2em;
+        background-color: $secondary-blue;
+        border-radius: 10px;
+        .s3__url-newtab {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
